@@ -6,6 +6,7 @@ Features:
 - Auto mapper
 - Middlewares (error handling,too long request)
 - Exception handling
+- Pagination
 
 #### AccountController: This controller handles user account-related operations such as user registration and login. It contains two action methods:
 - RegisterUser: Accepts a RegisterUserDto object in the request body and calls the RegisterUser method of the IAccountService interface to register a new user.
