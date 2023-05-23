@@ -1,0 +1,10 @@
+﻿using System.Security.AccessControl;
+
+namespace RestaurantWebApi.Entities
+{
+    public class Role
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+}
